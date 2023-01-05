@@ -1,0 +1,31 @@
+@media screen and (min-width: 1024px){
+    
+    .servicios__contenedor{
+        height: 120vh;
+        width: 100%;   
+        display: grid;
+        place-content: center;
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: repeat(2, 560px);
+    }
+
+    .servicios__contenedor section {
+        border: 1px solid antiquewhite;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        padding-bottom: 4rem;
+    }
+
+    .servicios__contenedor section h3 {
+        font-size: 2.1rem;
+        font-weight: 700;
+    }
+
+    .servicios__contenedor section p {
+        width: 60%;
+        text-align: center;
+    }
+
+}

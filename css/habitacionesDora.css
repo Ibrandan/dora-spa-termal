@@ -1,0 +1,27 @@
+@media screen and (min-width:1024px){
+
+    .habitaciones__contenedor{
+        height: 130vh;
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .habitaciones__contenedor section{
+        width: 28%;
+        margin: 1rem;
+    }
+
+    .habitaciones__contenedor figure {
+        width: 100%;
+        height: 380px;
+    }
+    
+    .habitaciones__contenedor figure img{
+        width: 100%;
+        height: 100%;
+    }
+}
